@@ -1,0 +1,166 @@
+body{
+    background: rgb(85, 11, 132);
+    
+    background-image: url(images/bg-desktop.svg);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    font-style: aliceblue ;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+.huddle{
+    margin-left: 41px;
+    margin-top: 31px;
+}
+
+.container{
+    margin-left: 41px;
+
+    margin-top: 67px;
+
+    display: flex;
+
+    height: 400px;
+    
+    width: 100%;
+
+    
+}
+
+.block2{
+    display: flex;
+   flex-direction: column;
+   width: 700px;
+   gap: 0;
+   height: 700px;
+  
+  
+}
+
+.h1{
+    margin-top: 81px ;
+
+        margin-left: 50px;
+ margin-bottom: 0;
+
+    width: 400px;
+    height: 100px;
+
+    color: aliceblue;
+
+   
+
+
+}
+
+.text_1{
+
+    font-weight: 50%;
+    
+    margin-top: 0;
+
+     margin-top: 40px;
+
+    margin-left: 50px;
+
+    width: 500px;
+
+    
+     
+
+    color: aliceblue;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1{
+    margin-top: 0;
+
+    margin-top: 40px;
+
+    margin-left: 50px;
+
+    width: 150px;
+
+    height: 50px;
+
+    border-radius: 48px;
+
+    color: rgb(111, 77, 144);
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+}
+
+.button1:hover{
+    background-color: rgb(210, 168, 250);
+    color: rgb(255, 255, 255);
+}
+
+.icon1{
+    size: 40px;
+}
+
+
+
+@media (min-width: 319px) and (max-width: 426px){
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
+   .huddle{
+    height: 20px;
+   }
+    .container{
+        flex-direction: column;
+    }
+
+    .block1{
+        margin-left: 0;
+        margin-top: 20px ;
+        width: 250px;
+        size: ;
+    }
+
+    .image_1{
+        height: 200px;
+        width: 100%;
+        padding-right: 50px;
+    }
+
+    .h1{
+        font-size: 25px;
+        width: 200px;
+    }
+
+    .text_1{
+        margin-top: 20px;
+        font-size: 15px;
+        width: 200px;
+
+    }
+
+    .button1{
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 0px;
+    }
+}
